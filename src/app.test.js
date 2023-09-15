@@ -9,3 +9,4 @@ describe("/test endpoint", () => {
     expect(response.text).toBe("Hello world");
   });
 });
+
