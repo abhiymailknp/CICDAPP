@@ -7,6 +7,10 @@ app.get("/test", (_req, res) => {
   res.status(200).send("Hello world");
 });
 
+app.get("/user", (req, res) => {
+  res.send({ user: "Abhishek" });
+});
+
 app.get("/", (req, res) => {
   console.log("Hello");
   console.log("World");
